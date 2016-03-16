@@ -18,6 +18,11 @@
           text: "Dollar"
         }
       },
+      tooltip: {
+        formatter: function() {
+          return Highcharts.dateFormat("%B %e, %Y", this.x) + ': ' +
+            "$" + Highcharts.numberFormat(this.y, 2);
+        }
       series: [{
         pointInterval: <%= 1.day * 1000 %>,
         pointStart: <%= 3.weeks.ago.to_i * 1000 %>,
