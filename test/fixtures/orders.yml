@@ -1,17 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  total_price: MyString
-  integer: MyString
-  purchased_at: MyString
-  datetime: MyString
-  shipping: MyString
-  boolean: MyString
+  total_price: 1
+  purchased_at: 2016-03-17 19:04:24
+  shipping: false
 
 two:
-  total_price: MyString
-  integer: MyString
-  purchased_at: MyString
-  datetime: MyString
-  shipping: MyString
-  boolean: MyString
+  total_price: 1
+  purchased_at: 2016-03-17 19:04:24
+  shipping: false
